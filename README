@@ -1,0 +1,25 @@
+# Task Management API
+
+## Descrição
+
+Este projeto é uma API RESTful desenvolvida em Java utilizando Spring Boot para gerenciar tarefas. A API permite que os usuários criem, atualizem, excluam e listem tarefas, além de fornecer funcionalidades avançadas, como filtragem, paginação e autenticação.
+
+## Funcionalidades
+
+- **Criar Tarefa:** Permite a criação de uma nova tarefa com título, descrição, status e prioridade.
+- **Listar Tarefas:** Lista todas as tarefas com opções de filtragem por status e prioridade.
+- **Buscar Tarefa:** Retorna os detalhes de uma tarefa específica pelo ID.
+- **Atualizar Tarefa:** Atualiza os detalhes de uma tarefa existente.
+- **Excluir Tarefa:** Remove uma tarefa do sistema.
+- **Autenticação e Autorização (Opcional):** Protege a API com autenticação JWT.
+- **Histórico de Mudanças (Opcional):** Registra as mudanças feitas nas tarefas ao longo do tempo.
+
+## Estrutura do Projeto
+
+- **Spring Boot:** Framework principal para a criação da API.
+- **Spring Data JPA:** Usado para persistência de dados.
+- **Banco de Dados:** H2 Database para testes; MySQL/PostgreSQL pode ser usado em produção.
+- **Spring Security:** Para autenticação e autorização.
+- **JUnit:** Para testes unitários.
+
+## Endpoints da API

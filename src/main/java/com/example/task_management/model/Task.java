@@ -22,10 +22,10 @@ public class Task {
     private LocalDateTime dueDate;
 
     @Enumerated(EnumType.STRING)
-    private LocalDateTime status;
+    private TaskStatus status;
 
     @Enumerated(EnumType.STRING)
-    private LocalDateTime priority;
+    private TaskPriority priority;
 
     // Getters e setters
 }

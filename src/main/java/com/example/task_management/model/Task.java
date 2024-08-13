@@ -28,4 +28,56 @@ public class Task {
     private TaskPriority priority;
 
     // Getters e setters
+
+    public Long getId(){
+        return this.id;
+    }
+
+    public String getTitle(){
+        return this.title;
+    }
+
+    public void setTitle(String title){
+        this.title = title;
+    }
+
+    public String getDescription(){
+        return this.description;
+    }
+
+    public void setDescription(String description){
+        this.description = description;
+    }
+
+    public TaskStatus getStatus() {
+        return this.status;
+    }
+
+    public void setStatus(TaskStatus status) {
+        this.status = status;
+    }
+
+    public TaskPriority getPriority() {
+        return this.priority;
+    }
+
+    public void setPriority(TaskPriority priority) {
+        this.priority = priority;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return this.createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public LocalDateTime getDueDate() {
+        return this.dueDate;
+    }
+
+    public void setDueDate(LocalDateTime dueDate) {
+        this.dueDate = dueDate;
+    }
 }

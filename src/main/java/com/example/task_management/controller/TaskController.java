@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-// import org.springframework.scheduling.config.Task;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -37,18 +36,18 @@ public class TaskController {
     }
 
     @PostMapping
-    public ResponseEntity createTask(@RequestBody Task task) {
+    public ResponseEntity<Task> createTask(@RequestBody Task task) {
         return taskService.createTask(task);
     }
 
     @PutMapping("/{id}")
-    public String updateTask(@PathVariable String id, @RequestBody String entity) {
-        return entity;
+    public ResponseEntity<Task> updateTask(@PathVariable String id, @RequestBody Task entity) {
+        return taskService.updateTask(Long.parseLong(id), entity);
     }
 
     @DeleteMapping("/{id}")
-    public Boolean deleteTask(@PathVariable String id, @RequestBody String entity){
-        return true;
+    public ResponseEntity deleteTask(@PathVariable Long id){
+        return taskService.deleteTask(id);
     }
 
 }

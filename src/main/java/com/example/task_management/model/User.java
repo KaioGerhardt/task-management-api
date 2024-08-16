@@ -20,9 +20,9 @@ public class User {
     private String email;
     private String userName;
     private LocalDateTime birthDate;
-    private LocalDateTime createdAt;
+    private LocalDateTime createdAt = LocalDateTime.now();
     private LocalDateTime lastLogin;
-    private Boolean isActive;
+    private Boolean isActive = true;
 
     // Getters e setters
     public Long getId() {

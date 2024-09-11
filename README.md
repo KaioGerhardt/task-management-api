@@ -32,7 +32,7 @@
   <p align="center">
     Uma API poderosa para ajudar a organizar e gerenciar suas tarefas de forma eficiente!
     <br />
-    <a href="https://github.com/kaiogerhardt/task-management-api/docs/README.md"><strong>Documentação »</strong></a>
+    <a href="https://github.com/KaioGerhardt/task-management-api/blob/main/docs/README.md"><strong>Documentação »</strong></a>
     <br />
     <br />
     <a href="https://github.com/kaiogerhardt/task-management-api">View Demo</a>
@@ -47,7 +47,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Sumário</summary>
+  <summary style="font-size: 18px;">Sumário</summary>
   <ol>
     <li>
       <a href="#sobre-o-projeto">Sobre o Projeto</a>
@@ -56,18 +56,16 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#primeiros-passos">Primeiros Passos</a>
       <ul>
         <li><a href="#prerequisites">Pré requisitos</a></li>
         <li><a href="#installation">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Utilização</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contato</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contribuindo">Contribuindo</a></li>
+    <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
 
@@ -108,7 +106,7 @@ As tecnologias usadas neste projeto incluem os principais frameworks e bibliotec
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Primeiros Passos
 Siga as etapas abaixo para obter uma cópia local do projeto e colocá-lo em execução.
 
 ## Pré-requisitos
@@ -178,18 +176,20 @@ See the [open issues](https://github.com/kaiogerhardt/task-management-api/issues
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuindo
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contribuições são o que fazem da comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será muito bem-vinda!
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Se você tem uma sugestão para melhorar este projeto, sinta-se à vontade para fazer um fork do repositório e criar um pull request. Você também pode abrir uma issue com a tag "enhancement" para discutir novas ideias.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Não se esqueça de dar uma estrela no projeto! Agradeço desde já!
+
+Como Contribuir:
+1. Faça um fork do projeto.
+2. Crie uma nova branch para sua feature (git checkout -b feature/NomeDaFeature).
+3. Commit suas alterações (git commit -m 'Adiciona NomeDaFeature').
+4. Faça o push para a branch (git push origin feature/NomeDaFeature).
+5. Abra um pull request.
 
 ### Top contributors:
 
@@ -200,7 +200,7 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+## Contato
 
 Tem alguma dúvida ou sugestão? Fique à vontade para entrar em contato! Será um prazer ajudar.
 
@@ -211,21 +211,5 @@ Tem alguma dúvida ou sugestão? Fique à vontade para entrar em contato! Será 
 
 Você pode conferir este projeto no GitHub:  
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kaiogerhardt/task-management-api)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
